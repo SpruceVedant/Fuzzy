@@ -1,0 +1,35 @@
+/* styles.css */
+/* html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+
+#search-box {
+  width: 90%;
+  padding: 15px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#results-container {
+  margin-top: 20px;
+}
+
+#results-container div {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
