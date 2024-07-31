@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (event.key === 'Enter') {
         let query = event.target.value;
         console.log('Search Query:', query);
-        event.target.value = ''; // Clear the input after search
+        event.target.value = '';
       }
     });
   });
